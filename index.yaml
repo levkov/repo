@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  dashboard:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-06-07T08:35:09.750412032+02:00"
+    description: Dashboard chart
+    digest: e9302326157133f88f4da713e4e23cefc6cd70a901a8488a6a405e5cec854ccf
+    name: dashboard
+    urls:
+    - https://minikube-net.github.io/repo/dashboard-1.tgz
+    version: "1"
+generated: "2019-06-07T08:35:09.750214927+02:00"

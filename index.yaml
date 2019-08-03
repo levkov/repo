@@ -2,19 +2,10 @@ apiVersion: v1
 entries:
   chartmuseum:
   - apiVersion: v1
-    appVersion: "1.1"
-    created: "2019-07-23T23:41:41.565564+03:00"
-    description: Chartmuseum
-    digest: d482f1b6b3d5631c9629a479c3d4ad13373ccf85edf19bfabf24047d0e5025d2
-    name: chartmuseum
-    urls:
-    - https://minikube-net.github.io/repo/chartmuseum-1.1.tgz
-    version: "1.1"
-  - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-07-23T23:41:41.5659492+03:00"
-    description: Chartmuseum chart
-    digest: a3c16d11bb9c4b895d86d82d55934a8ba7643fed2264fa2a46d841b812870c8a
+    created: "2019-08-03T09:26:55.3250693+03:00"
+    description: Chartmuseum
+    digest: 23c2813bb9e1e868be6b814e675ae60d176dc29a0c956e98bcf7cdf66b5a233b
     name: chartmuseum
     urls:
     - https://minikube-net.github.io/repo/chartmuseum-1.tgz
@@ -22,11 +13,11 @@ entries:
   dashboard:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-07-23T23:41:41.5662572+03:00"
+    created: "2019-08-03T09:26:55.3253626+03:00"
     description: Dashboard chart
-    digest: e9302326157133f88f4da713e4e23cefc6cd70a901a8488a6a405e5cec854ccf
+    digest: 271570f893a6798581bfdf08b170d066bef1d8413d4ca147da1ccf764f5b40b5
     name: dashboard
     urls:
     - https://minikube-net.github.io/repo/dashboard-1.tgz
     version: "1"
-generated: "2019-07-23T23:41:41.5648506+03:00"
+generated: "2019-08-03T09:26:55.3244904+03:00"

@@ -3,7 +3,7 @@ entries:
   chartmuseum:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-08-03T09:59:31.5887225+03:00"
+    created: "2019-08-24T22:48:18.9085655+03:00"
     description: Chartmuseum
     digest: a8b3e866ffac75e591ff7dd3afcdd4a71baa4319b056ac650823bd52a66e3692
     name: chartmuseum
@@ -13,11 +13,21 @@ entries:
   dashboard:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-08-03T09:59:31.589077+03:00"
+    created: "2019-08-24T22:48:18.9112255+03:00"
     description: Dashboard chart
     digest: 0f2367271758ada91cb2d0dfb37d99968c09596f6e919bbdc8504be9af5c6bd6
     name: dashboard
     urls:
     - https://minikube-net.github.io/repo/dashboard-1.tgz
     version: "1"
-generated: "2019-08-03T09:59:31.5872636+03:00"
+  sealed-secrets:
+  - apiVersion: v1
+    appVersion: 0.8.1
+    created: "2019-08-24T22:48:18.9115543+03:00"
+    description: Sealed-secrets chart
+    digest: ef73445261fcb231cce5d365b801e03f6755109e546afe9a1315cfa7eee0993c
+    name: sealed-secrets
+    urls:
+    - https://minikube-net.github.io/repo/sealed-secrets-0.8.1.tgz
+    version: 0.8.1
+generated: "2019-08-24T22:48:18.9046482+03:00"

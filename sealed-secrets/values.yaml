@@ -1,0 +1,2 @@
+sealed_secrets_image: minikube/sealed-secrets:0.8.1
+

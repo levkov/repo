@@ -3,7 +3,7 @@ entries:
   chartmuseum:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-08-24T22:48:18.9085655+03:00"
+    created: "2019-09-20T17:26:10.3211889+03:00"
     description: Chartmuseum
     digest: a8b3e866ffac75e591ff7dd3afcdd4a71baa4319b056ac650823bd52a66e3692
     name: chartmuseum
@@ -13,7 +13,7 @@ entries:
   dashboard:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-08-24T22:48:18.9112255+03:00"
+    created: "2019-09-20T17:26:10.3223853+03:00"
     description: Dashboard chart
     digest: 0f2367271758ada91cb2d0dfb37d99968c09596f6e919bbdc8504be9af5c6bd6
     name: dashboard
@@ -22,12 +22,21 @@ entries:
     version: "1"
   sealed-secrets:
   - apiVersion: v1
+    appVersion: 0.9.0
+    created: "2019-09-20T17:26:10.3232166+03:00"
+    description: Sealed-secrets chart
+    digest: 648b16f03f0d865e6901784ea401d4540a4fbcb305258980348e2196e7a54a14
+    name: sealed-secrets
+    urls:
+    - https://minikube-net.github.io/repo/sealed-secrets-0.9.0.tgz
+    version: 0.9.0
+  - apiVersion: v1
     appVersion: 0.8.1
-    created: "2019-08-24T22:48:18.9115543+03:00"
+    created: "2019-09-20T17:26:10.3227953+03:00"
     description: Sealed-secrets chart
     digest: ef73445261fcb231cce5d365b801e03f6755109e546afe9a1315cfa7eee0993c
     name: sealed-secrets
     urls:
     - https://minikube-net.github.io/repo/sealed-secrets-0.8.1.tgz
     version: 0.8.1
-generated: "2019-08-24T22:48:18.9046482+03:00"
+generated: "2019-09-20T17:26:10.3205643+03:00"

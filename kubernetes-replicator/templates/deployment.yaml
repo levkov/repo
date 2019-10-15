@@ -4,6 +4,9 @@ metadata:
   name: replicator-deployment
   namespace: kube-system
 spec:
+  selector:
+    matchLabels:
+      app: replicator
   replicas: 1
   template:
     metadata:
@@ -11,6 +14,9 @@ spec:
         app: replicator
     spec:
       serviceAccountName: replicator
+
       containers:
         - name: replicator
           image: quay.io/mittwald/kubernetes-replicator:v2.0.1
+           
+

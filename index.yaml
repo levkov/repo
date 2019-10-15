@@ -3,7 +3,7 @@ entries:
   chartmuseum:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-15T16:39:42.573121+03:00"
+    created: "2019-10-15T17:01:36.626962+03:00"
     description: Chartmuseum
     digest: a8b3e866ffac75e591ff7dd3afcdd4a71baa4319b056ac650823bd52a66e3692
     name: chartmuseum
@@ -13,7 +13,7 @@ entries:
   dashboard:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-15T16:39:42.573545+03:00"
+    created: "2019-10-15T17:01:36.627516+03:00"
     description: Dashboard chart
     digest: 0f2367271758ada91cb2d0dfb37d99968c09596f6e919bbdc8504be9af5c6bd6
     name: dashboard
@@ -23,9 +23,9 @@ entries:
   kubernetes-replicator:
   - apiVersion: v1
     appVersion: 2.0.1
-    created: "2019-10-15T16:39:42.573686+03:00"
+    created: "2019-10-15T17:01:36.627658+03:00"
     description: kubernetes-replicator chart
-    digest: a68993840b59bba4e8a39b63c0efeae048c472cf963eb194fbd83559fa819a9e
+    digest: b0ea16a026ddd24706439df182c605888fdfe15d576f90e81d9cb475ec74d3db
     name: kubernetes-replicator
     urls:
     - https://minikube-net.github.io/repo/kubernetes-replicator-2.0.1.tgz
@@ -33,7 +33,7 @@ entries:
   sealed-secrets:
   - apiVersion: v1
     appVersion: 0.9.0
-    created: "2019-10-15T16:39:42.574482+03:00"
+    created: "2019-10-15T17:01:36.628357+03:00"
     description: Sealed-secrets chart
     digest: 491cb7791bbc045032449a8040cd59ada3dd76da49da2432bfcb085f528f4c19
     name: sealed-secrets
@@ -42,11 +42,11 @@ entries:
     version: 0.9.0
   - apiVersion: v1
     appVersion: 0.8.1
-    created: "2019-10-15T16:39:42.574132+03:00"
+    created: "2019-10-15T17:01:36.627922+03:00"
     description: Sealed-secrets chart
     digest: ef73445261fcb231cce5d365b801e03f6755109e546afe9a1315cfa7eee0993c
     name: sealed-secrets
     urls:
     - https://minikube-net.github.io/repo/sealed-secrets-0.8.1.tgz
     version: 0.8.1
-generated: "2019-10-15T16:39:42.572221+03:00"
+generated: "2019-10-15T17:01:36.626335+03:00"

@@ -4,6 +4,10 @@ metadata:
   name: dashboard
   annotations:
     nginx.ingress.kubernetes.io/ssl-redirect: \"false\"
+        nginx.ingress.kubernetes.io/rewrite-target: /
+        nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+        nginx.ingress.kubernetes.io/proxy-send-timeout: "3600"
+        nginx.ingress.kubernetes.io/proxy-read-timeout: "3600
 spec:
   rules:
   - host: {{ .Values.wildcard_domain_name }}

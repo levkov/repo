@@ -2,7 +2,6 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: dashboard
-  namespace: weave
   annotations:
     nginx.ingress.kubernetes.io/ssl-redirect: \"false\"
 spec:

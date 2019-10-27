@@ -3,7 +3,7 @@ entries:
   chartmuseum:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-27T12:19:59.245948+02:00"
+    created: "2019-10-27T12:27:40.399075+02:00"
     description: Chartmuseum
     digest: a8b3e866ffac75e591ff7dd3afcdd4a71baa4319b056ac650823bd52a66e3692
     name: chartmuseum
@@ -13,7 +13,7 @@ entries:
   dashboard:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-27T12:19:59.246229+02:00"
+    created: "2019-10-27T12:27:40.399687+02:00"
     description: Dashboard chart
     digest: aa05ab74ec0410fd88f41d0dd0c427789b3124a70317ce78f098036c8dbfc331
     name: dashboard
@@ -23,7 +23,7 @@ entries:
   kubernetes-ingress:
   - apiVersion: v1
     appVersion: 1.5.6
-    created: "2019-10-27T12:19:59.247244+02:00"
+    created: "2019-10-27T12:27:40.400271+02:00"
     description: kubernetes-ingress chart
     digest: 55a47c8622c38e372370f4979c79bd3147d00f705d6b6b161174580dc57e6555
     name: kubernetes-ingress
@@ -33,7 +33,7 @@ entries:
   kubernetes-replicator:
   - apiVersion: v1
     appVersion: 2.0.1
-    created: "2019-10-27T12:19:59.248093+02:00"
+    created: "2019-10-27T12:27:40.400685+02:00"
     description: kubernetes-replicator chart
     digest: 2663f5315c0d6a9d5379de45c76e8df46a6f60f503016456b5c1039e304db33c
     name: kubernetes-replicator
@@ -43,7 +43,7 @@ entries:
   metrics-server:
   - apiVersion: v1
     appVersion: 0.3.6
-    created: "2019-10-27T12:19:59.248964+02:00"
+    created: "2019-10-27T12:27:40.400959+02:00"
     description: metrics-server chart
     digest: bdc9c793caeee4ce4198aec190cae9094757503c82a473ee8c7cc8a73bf9bc1f
     name: metrics-server
@@ -53,7 +53,7 @@ entries:
   registry-creds:
   - apiVersion: v1
     appVersion: "1.6"
-    created: "2019-10-27T12:19:59.249115+02:00"
+    created: "2019-10-27T12:27:40.401328+02:00"
     description: registry-creds chart
     digest: b295b7e62baaacfe46c06be4b6b72bff4d1e60f2f42e51d65da7b14771479d7c
     name: registry-creds
@@ -63,9 +63,9 @@ entries:
   scope:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-27T12:19:59.249238+02:00"
+    created: "2019-10-27T12:27:40.40148+02:00"
     description: Scope chart
-    digest: 33200889b7739cbb412d12c7ebe2f7a58e7a4b6c1849b3f049342008f9156700
+    digest: 4564114699678d241e6f0dc59ad45b2c933e314da7b96dc89bf8aa3d7a892211
     name: scope
     urls:
     - https://minikube-net.github.io/repo/scope-1.tgz
@@ -73,7 +73,7 @@ entries:
   sealed-secrets:
   - apiVersion: v1
     appVersion: 0.9.0
-    created: "2019-10-27T12:19:59.250078+02:00"
+    created: "2019-10-27T12:27:40.402333+02:00"
     description: Sealed-secrets chart
     digest: 491cb7791bbc045032449a8040cd59ada3dd76da49da2432bfcb085f528f4c19
     name: sealed-secrets
@@ -82,11 +82,11 @@ entries:
     version: 0.9.0
   - apiVersion: v1
     appVersion: 0.8.1
-    created: "2019-10-27T12:19:59.24969+02:00"
+    created: "2019-10-27T12:27:40.401937+02:00"
     description: Sealed-secrets chart
     digest: ef73445261fcb231cce5d365b801e03f6755109e546afe9a1315cfa7eee0993c
     name: sealed-secrets
     urls:
     - https://minikube-net.github.io/repo/sealed-secrets-0.8.1.tgz
     version: 0.8.1
-generated: "2019-10-27T12:19:59.24522+02:00"
+generated: "2019-10-27T12:27:40.398349+02:00"

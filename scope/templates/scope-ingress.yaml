@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: scope
+  namespace: weave
+  annotations:
+    nginx.ingress.kubernetes.io/ssl-redirect: \"false\"
+    nginx.org/websocket-services: "weave-scope-app"
+spec:
+  rules:
+  - host: scope.{{ .Values.wildcard_domain_name }}
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: weave-scope-app
+          servicePort: 80
